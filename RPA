@@ -1,0 +1,27 @@
+1.	Create a basic recording process by using selectors and file saving by change the font in Notepad.
+
+step1: use application/browser activity.
+step2: target the screen to browser(google).
+step3: in do->use activity called type into and indicate target screen to search bar and give the name in "".
+step4: while indicating target screen you can see selection helper in that click on target section.
+step5: you can see the targeting methods or types of selectors like-strict selector,fuzzy selector,image,native text,computer vision,semantic selectors....
+step6: in below you can also give the tags to select the ui element.
+step7: now you can validate the element and confirm the selection.
+step8: use click to search the type into information.
+FILE SAVING
+step9: use application/browser activity.
+step10: target the screen to notepad.
+step11: use click activity and indicate the target screen to edit option.
+step12: again use click activity and indicate the target screen to font option.
+step13: again use click activity and indicate the target screen to size(drag down option).
+step14: again use click activity and indicate the target screen to font size number(ex 12->18).
+step15: again use click activity and indicate the target screen to back option
+step16: again use click activity and indicate the target screen to file option.
+step17: again use click activity and indicate the target screen to save option.
+
+2.	Design a process to automate interaction using image-based and OCR text recognition.
+step1: use get ocr text activity.
+step2: target the screen to browser screen with image.
+step3: use tesseract ocr activity.
+step4: use log message activity in that give message as image.ToString and log level to info.
+step5: use write text file activity and select use local file and select file and in text give image.
