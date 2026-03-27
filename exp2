@@ -3,3 +3,9 @@
 3.Create a Maven Project from eclipse 
 4.now in filter search maven-archetype-webapp 1.5 and select that one
 5.give group id and package as war and click finish
+6.now edit the pom.xml file 
+7.right click on project and click teams->share project
+8.create repo in github
+9.now commit the project and make sure to credentials are yours
+10.now click ++ icon and add messssage and click commit and push
+11.give your credentials and save
