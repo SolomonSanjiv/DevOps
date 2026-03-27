@@ -1,0 +1,26 @@
+1.after exp3 open another git bash and connect same ssh client address
+2.>sudo su - and >cd /opt
+3.open maven download in website and copy the link address of apache-maven.3.9.9.bin.tar.gz and use command 
+  >wget linkaddress
+4.to unzip use >tar -xvzf apache-maven.3.9.9.bin.tar.gz
+5.now rename use >mv apache-maven.3.9.9.bin.tar.gz maven
+6. >cd maven
+  >mvn --version
+  >./mvn --version
+  >cd /
+  >mvn --version
+  >cd `
+  >sudo vim .profile
+M2_HOME=/opt/maven
+M2=/opt/maven/bin
+JAVA_HOME=/usr/lib/jvm/java-21-openjdk-amd64
+PATH=$PATH:$HOME/bin:$JAVA_HOME:$M2_HOME:$M2(:wq)
+  >find / -name java-21*
+  >echo $PATH
+  >source .profile
+  >echo $PATH
+  >mvn --version
+7.now go to manage jenkins->plugins->avaliable plugins->maven integration plugin install it
+8.now go to manage jenkins->tools add jdk and maven
+9.now create a war file using maven project
+10.in source code management give your git repo link and in build give pom.xml and give goals
