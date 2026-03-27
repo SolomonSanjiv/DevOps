@@ -1,0 +1,5 @@
+1.Install Jdk21
+2.Download eclipse zip and extract the contents 
+3.Create a Maven Project from eclipse 
+4.now in filter search maven-archetype-webapp 1.5 and select that one
+5.give group id and package as war and click finish
