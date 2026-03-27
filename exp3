@@ -1,0 +1,18 @@
+1.login to your aws accout and make sure to install git
+2.in ec2 you need to create an instance
+3.now give the instance name and select ubuntu os 22.04 version
+4.create the key pair
+5.add new security group rule in that modify type to all traffic and source type to anywhere
+6.now open git bash terminal where you downloaded the .pem(key pair) file
+7.now in instance connect the ssh client 
+8.in git bash use 
+  >sudo apt update
+  >sudo apt install openjdk-21-jdk -y
+  >sudo apt-get install -y git maven
+  -open jenkins.io and in download option copy the file address and use command
+  >wget <linkaddress>
+  >java -jar jenkins.war
+  -take the public ip address and past in browser with the extention of:8080
+  ex-0.0.0.0:8080
+9.now copy the password from the terminal and paste to unlock jenkins
+10.now install the suggested plugins and continue as admin
