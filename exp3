@@ -7,7 +7,7 @@
 7.now in instance connect the ssh client 
 8.in git bash use 
   >sudo apt update
-  >sudo apt install openjdk-21-jdk -y
+  >sudo apt-get install -y openjdk-21-jdk 
   >sudo apt-get install -y git maven
   -open jenkins.io and in download option copy the file address and use command
   >wget <linkaddress>
